@@ -18,7 +18,7 @@
     3. CRUD oparation
     3.1 node mongodb CRUD > fundamentals
     3.2 create async run function
-    3.
+    3
 
  */
 
