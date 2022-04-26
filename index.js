@@ -32,6 +32,7 @@ app.get('/users', (req, res) => {
         res.send(users)
     }
 })
+
 app.get('/user/:id', (req, res) => {
     console.log(req.params);
     const id = req.params.id;
