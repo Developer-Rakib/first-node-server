@@ -25,7 +25,6 @@ app.get('/users', (req, res) => {
         const search = req.query.name.toLocaleLowerCase();
         let matched = users.user.filter(user => user.name.toLocaleLowerCase().includes(search))
         res.send(matched)
-        console.log(search);
         console.log(matched);
     } else {
         console.log("not mathed");
